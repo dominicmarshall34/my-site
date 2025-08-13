@@ -1,0 +1,74 @@
+{
+  "name": "Dominic Marshall",
+  "title": "Software Engineer",
+  "contact": {
+    "address": "51 Whitelow Road, Manchester, M21 9HG",
+    "email": "dom@marshall34.co.uk"
+  },
+  "education": {
+    "degree": "BSc Music Technology & Applied Electronics",
+    "university": "The University of York",
+    "details": "Achieved a 2:1 with distinction in the majority of programming-related modules."
+  },
+  "skills": [
+    "Terraform", "GCP", "Docker", "PHP", "Laravel", "Node.js", "Express", "Python", "Golang", "Vue.js", "Vuetify", "PostgreSQL", "Firebase"
+  ],
+  "experience": [
+    {
+      "company": "TympaHealth",
+      "title": "Software Engineer",
+      "subtitle": "Med Tech Project with Infra-Led Focus",
+      "date": "May 2023 - Present",
+      "details": [
+        "Full-stack engineer with a recent focus on back end development and infrastructure.",
+        "Designed and managed infrastructure as code using Terraform on Google Cloud Platform (GCP).",
+        "Worked with PHP and Vue.js for core application development.",
+        "Contributed to services built in Node.js and Express, utilizing Pub/Sub for inter-service communication."
+      ]
+    },
+    {
+      "company": "Oxford Pharmagenesis",
+      "title": "Software Engineer",
+      "subtitle": "Large-Scale PHP/Laravel Application",
+      "date": "Nov 2021 - May 2023",
+      "details": [
+        "Senior developer, liaised with clients and managed a diverse codebase.",
+        "Created and maintained a portfolio of microservices (Vue.js front-end, Node.js back-end)."
+      ]
+    },
+    {
+      "company": "MoneyPlus Group",
+      "title": "Full Stack Developer",
+      "subtitle": "Fintech Development",
+      "date": "Mar 2021 - Nov 2021",
+      "details": [
+        "Senior developer role working with Laravel/PHP, Python/Django, and Vue.js/Vuetify.",
+        "Handled deployment on Linux servers and utilized a CI/CD automated pipeline.",
+        "Implemented split testing and analytics to guide development."
+      ]
+    },
+    {
+      "company": "Resolute Asset Management",
+      "title": "Software Engineer",
+      "subtitle": "Scalable Cloud Applications",
+      "date": "Nov 2019 - Mar 2021",
+      "details": [
+        "Developed and maintained a PHP/Laravel application on Google App Engine for 100k+ users.",
+        "Integrated Google Storage Bucket for efficient asset storage.",
+        "Contributed to a larger Data Science project involving multiple microservices."
+      ]
+    },
+    {
+      "company": "Jolly Learning Ltd",
+      "title": "Software Developer",
+      "subtitle": "Educational Software & Games",
+      "date": "Jul 2018 - Nov 2019",
+      "details": [
+        "Designed and developed desktop educational applications for Mac and Windows.",
+        "Maintained and enhanced iOS applications and games.",
+        "Actively developed and introduced new features for the company website in PHP."
+      ]
+    }
+  ],
+  "references": "Available upon request."
+}

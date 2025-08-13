@@ -22,50 +22,27 @@
                     <!-- Profile Header -->
                     <div class="profile-header">
                         <img src="assets/profile.jpeg" alt="Dominic Marshall's Profile Picture" class="profile-image"/>
-                        <h1 class="profile-name">Dominic Marshall</h1>
-                        <p class="profile-title">Software Engineer</p>
+                        <h1 id="profile-name" class="profile-name"></h1>
+                        <p id="profile-title" class="profile-title"></p>
                     </div>
 
                     <!-- Contact Info -->
                     <div class="contact-info">
                         <h2 class="sidebar-heading">Contact</h2>
-                        <ul class="contact-list">
-                            <li>
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>51 Whitelow Road, Manchester, M21 9HG</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                                <a href="mailto:dom@marshall34.com" class="link">dom@marshall34.com</a>
-                            </li>
-                        </ul>
+                        <ul class="contact-list" id="contact-info"></ul>
                     </div>
                     
                     <!-- Education Section -->
                     <div class="education-section">
                         <h2 class="sidebar-heading">Education</h2>
-                        <h3>BSc Music Technology & Applied Electronics</h3>
-                        <p class="education-university">The University of York</p>
-                        <p class="education-details">Achieved a 2:1 with distinction in the majority of programming-related modules.</p>
+                        <h3 id="education-degree"></h3>
+                        <p id="education-university" class="education-university"></p>
+                        <p id="education-details" class="education-details"></p>
                     </div>
 
+
                     <!-- Skills Section -->
-                    <div class="skills-section">
-                        <h2 class="sidebar-heading">Skills</h2>
-                        <div class="skills-container">
-                            <span class="skill-tag">PHP</span>
-                            <span class="skill-tag">Laravel</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">Express</span>
-                            <span class="skill-tag">Vue.js</span>
-                            <span class="skill-tag">Vuetify</span>
-                            <span class="skill-tag">PostgreSQL</span>
-                            <span class="skill-tag">Docker</span>
-                            <span class="skill-tag">Terraform</span>
-                            <span class="skill-tag">GCP</span>
-                            <span class="skill-tag">Firebase</span>
-                        </div>
-                    </div>
+                    <div class="skills-container" id="skills"></div>
                 </div>
             </aside>
 
@@ -74,86 +51,7 @@
                 <!-- Experience Section -->
                 <section>
                     <h2 class="main-heading">Experience</h2>
-                    <div class="experience-container">
-                        <!-- TympaHealth -->
-                        <div class="experience-card">
-                            <div class="experience-header">
-                                <div>
-                                    <h3>TympaHealth - Software Engineer</h3>
-                                    <p class="experience-subtitle">Industry-Renowned Med Tech Project</p>
-                                </div>
-                                <p class="experience-date">May 2023 - Present</p>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Worked with services built mostly in PHP and a Vue.js/Vuetify frontend.</li>
-                                <li>Utilized smaller services built in Node.js and Express using Pub/Sub.</li>
-                                <li>All infrastructure as code using Terraform.</li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Oxford Pharmagenesis -->
-                        <div class="experience-card">
-                             <div class="experience-header">
-                                <div>
-                                    <h3>Oxford Pharmagenesis - Software Engineer</h3>
-                                    <p class="experience-subtitle">Large-Scale PHP/Laravel Application</p>
-                                </div>
-                                <p class="experience-date">Nov 2021 - May 2023</p>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Senior developer, liaised with clients and managed a diverse codebase.</li>
-                                <li>Created and maintained a portfolio of microservices (Vue.js front-end, Node.js back-end).</li>
-                            </ul>
-                        </div>
-
-                        <!-- MoneyPlus Group -->
-                        <div class="experience-card">
-                             <div class="experience-header">
-                                <div>
-                                    <h3>MoneyPlus Group - Full Stack Developer</h3>
-                                    <p class="experience-subtitle">Fintech Development</p>
-                                </div>
-                                <p class="experience-date">Mar 2021 - Nov 2021</p>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Senior developer role working with Laravel/PHP, Python/Django, and Vue.js/Vuetify.</li>
-                                <li>Handled deployment on Linux servers and utilized a CI/CD automated pipeline.</li>
-                                <li>Implemented split testing and analytics to guide development.</li>
-                            </ul>
-                        </div>
-
-                        <!-- Resolute Asset Management -->
-                        <div class="experience-card">
-                             <div class="experience-header">
-                                <div>
-                                    <h3>Resolute Asset Management - Software Engineer</h3>
-                                    <p class="experience-subtitle">Scalable Cloud Applications</p>
-                                </div>
-                                <p class="experience-date">Nov 2019 - Mar 2021</p>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Developed and maintained a PHP/Laravel application on Google App Engine for 100k+ users.</li>
-                                <li>Integrated Google Storage Bucket for efficient asset storage.</li>
-                                <li>Contributed to a larger Data Science project involving multiple microservices.</li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Jolly Learning Ltd -->
-                        <div class="experience-card">
-                             <div class="experience-header">
-                                <div>
-                                    <h3>Jolly Learning Ltd - Software Developer</h3>
-                                    <p class="experience-subtitle">Educational Software & Games</p>
-                                </div>
-                                <p class="experience-date">Jul 2018 - Nov 2019</p>
-                            </div>
-                            <ul class="experience-details">
-                                <li>Designed and developed desktop educational applications for Mac and Windows.</li>
-                                <li>Maintained and enhanced iOS applications and games.</li>
-                                <li>Actively developed and introduced new features for the company website in PHP.</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <div class="experience-container" id="experience"></div>
                 </section>
                 
                 <!-- References Section -->
@@ -166,6 +64,8 @@
             </div>
         </main>
     </div>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
 
