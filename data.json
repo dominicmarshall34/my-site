@@ -1,6 +1,6 @@
 {
   "name": "Dominic Marshall",
-  "title": "Software Engineer",
+  "title": "Senior Full Stack Developer",
   "contact": {
     "address": "51 Whitelow Road, Manchester, M21 9HG",
     "email": "dom@marshall34.co.uk"
@@ -16,10 +16,11 @@
   "experience": [
     {
       "company": "TympaHealth",
-      "title": "Software Engineer",
+      "title": "Senior Full Stack Developer",
       "subtitle": "Med Tech Project with Infra-Led Focus",
-      "date": "May 2023 - Present",
+      "date": "Feb 2025 - Present",
       "details": [
+        "Promoted to Senior Full Stack Developer in February 2025.",
         "Full-stack engineer with a recent focus on back end development and infrastructure.",
         "Designed and managed infrastructure as code using Terraform on Google Cloud Platform (GCP).",
         "Worked with PHP and Vue.js for core application development.",
@@ -27,8 +28,19 @@
       ]
     },
     {
+      "company": "TympaHealth",
+      "title": "PHP Developer",
+      "subtitle": "Med Tech Development",
+      "date": "May 2023 - Feb 2025",
+      "details": [
+        "Full-stack engineer with focus on PHP and Vue.js development.",
+        "Contributed to infrastructure as code using Terraform on Google Cloud Platform (GCP).",
+        "Worked on services built in Node.js and Express, utilizing Pub/Sub for inter-service communication."
+      ]
+    },
+    {
       "company": "Oxford Pharmagenesis",
-      "title": "Software Engineer",
+      "title": "Digital Developer",
       "subtitle": "Large-Scale PHP/Laravel Application",
       "date": "Nov 2021 - May 2023",
       "details": [
