@@ -15,7 +15,7 @@
   ],
   "experience": [
     {
-      "company": "TympaHealth",
+      "company": "TympaHealth Technologies Ltd",
       "title": "Senior Full Stack Developer",
       "subtitle": "Med Tech Project with Infra-Led Focus",
       "date": "Feb 2025 - Present",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "company": "TympaHealth",
+      "company": "TympaHealth Technologies Ltd",
       "title": "PHP Developer",
       "subtitle": "Med Tech Development",
       "date": "May 2023 - Feb 2025",
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "company": "Oxford Pharmagenesis",
+      "company": "Oxford PharmaGenesis",
       "title": "Digital Developer",
       "subtitle": "Large-Scale PHP/Laravel Application",
       "date": "Nov 2021 - May 2023",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "company": "MoneyPlus Group",
+      "company": "MoneyPlus",
       "title": "Full Stack Developer",
       "subtitle": "Fintech Development",
       "date": "Mar 2021 - Nov 2021",
@@ -61,7 +61,17 @@
       "company": "Resolute Asset Management",
       "title": "Software Engineer",
       "subtitle": "Scalable Cloud Applications",
-      "date": "Nov 2019 - Mar 2021",
+      "date": "Jan 2021 - Mar 2021",
+      "details": [
+        "Promoted to Software Engineer.",
+        "Continued development and maintenance of high-traffic applications."
+      ]
+    },
+    {
+      "company": "Resolute Asset Management",
+      "title": "Junior Software Engineer",
+      "subtitle": "Scalable Cloud Applications",
+      "date": "Nov 2019 - Jan 2021",
       "details": [
         "Developed and maintained a PHP/Laravel application on Google App Engine for 100k+ users.",
         "Integrated Google Storage Bucket for efficient asset storage.",
